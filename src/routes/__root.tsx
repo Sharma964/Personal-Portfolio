@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import faviconImg from "@/assets/favicon.svg";
 
 function NotFoundComponent() {
   return (
@@ -72,16 +73,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Sonu Sharma — Software Engineer" },
+      { name: "description", content: "Sonu Sharma's Portfolio" },
+      { name: "author", content: "Sonu Sharma" },
+      { property: "og:title", content: "Sonu Sharma — Software Engineer" },
+      { property: "og:description", content: "Sonu Sharma's Portfolio" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@SonuSharma" },
     ],
     links: [
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: faviconImg,
+      },
       {
         rel: "stylesheet",
         href: appCss,

@@ -8,12 +8,19 @@ export function Footer() {
           © {new Date().getFullYear()} <span className="text-gradient font-bold">Sonu Sharma</span> — Designed & Developed with passion.
         </div>
         <div className="flex items-center gap-2">
-          {[Github, Linkedin, Twitter, Instagram].map((Icon, i) => (
+          {[
+            { Icon: Github, href: "https://github.com/Sharma964" },
+            { Icon: Linkedin, href: "https://www.linkedin.com/in/sonu-sharma-2119ab328" },
+            { Icon: Twitter, href: "#" },
+            { Icon: Instagram, href: "#" },
+          ].map(({ Icon, href }, i) => (
             <a
               key={i}
-              href="#"
+              href={href}
               className="grid place-items-center h-10 w-10 rounded-xl glass hover:text-neon-cyan hover:shadow-glow-cyan transition-all"
               aria-label="Social link"
+              target={href !== "#" ? "_blank" : undefined}
+              rel={href !== "#" ? "noreferrer" : undefined}
             >
               <Icon size={16} />
             </a>

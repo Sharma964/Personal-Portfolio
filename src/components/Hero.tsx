@@ -176,8 +176,8 @@ export function Hero() {
 
           <div className="flex items-center gap-3 pt-2">
             {[
-              { Icon: Github, href: "https://github.com" },
-              { Icon: Linkedin, href: "https://linkedin.com" },
+              { Icon: Github, href: "https://github.com/Sharma964" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/sonu-sharma-2119ab328" },
               { Icon: Twitter, href: "https://twitter.com" },
               { Icon: Instagram, href: "https://instagram.com" },
             ].map(({ Icon, href }, i) => (

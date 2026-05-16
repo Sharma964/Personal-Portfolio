@@ -19,11 +19,11 @@ export function Contact() {
         <div className="grid lg:grid-cols-5 gap-6 max-w-5xl mx-auto">
           <div className="lg:col-span-2 space-y-4">
             {[
-              { Icon: Mail, label: "Email", value: "sonusharma@example.com" },
-              { Icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
+              { Icon: Mail, label: "Email", value: "Sonu.Sharma9485812@gmail.com" },
+              { Icon: Phone, label: "Phone", value: "+91 9942664962, +977 9814896946" },
               { Icon: MapPin, label: "Location", value: "Pune, Maharashtra, India" },
-              { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/yourprofile" },
-              { Icon: Github, label: "GitHub", value: "github.com/yourusername" },
+              { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sonu-sharma-2119ab328" },
+              { Icon: Github, label: "GitHub", value: "github.com/Sharma964" },
             ].map(({ Icon, label, value }) => (
               <div key={label} className="glass rounded-2xl p-4 flex items-center gap-4 hover:shadow-glow transition-all">
                 <div className="grid place-items-center h-11 w-11 rounded-xl bg-gradient-primary shadow-glow shrink-0">
