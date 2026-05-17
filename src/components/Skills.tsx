@@ -9,7 +9,7 @@ const technical = [
   { name: "Responsive UI Development", level: 92 },
 ];
 
-const languages = ["C", "C++", "Python", "Java"];
+const languages = ["C", "C++", "Python", "Java", "HTML"];
 const additional = ["Problem Solving", "Team Collaboration", "Logical Thinking", "AI-Based Projects"];
 
 export function Skills() {
