@@ -22,6 +22,8 @@ const projects = [
     title: "Herb Trace Ayur (Blockchain)",
     desc: "Blockchain solution for Ayurvedic product transparency, traceability, and decentralized supply chain trust.",
     tags: ["Blockchain", "Solidity", "Web3", "React"],
+    
+    live:"https://herb-trace-ayur-block-chain.vercel.app",
   },
 ];
 
@@ -67,7 +69,9 @@ export function Projects() {
                     <Github size={16} /> Code
                   </a>
                   <a
-                    href="#"
+                    href={p.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm font-medium hover:text-neon-cyan transition-colors"
                   >
                     <ExternalLink size={16} /> Live
