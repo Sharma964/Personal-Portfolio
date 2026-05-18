@@ -80,7 +80,7 @@ function Particles() {
   );
 }
 
-const STACK = ["React", "TypeScript", "Python", "AI/ML", "Tailwind", "Node"];
+const STACK = ["React", "TypeScript", "Python", "AI/ML", "Node"];
 
 export function Hero() {
   const role = useTypewriter(ROLES);
