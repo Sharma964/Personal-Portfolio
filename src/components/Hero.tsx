@@ -151,7 +151,9 @@ export function Hero() {
               <Mail size={18} /> Contact Me
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/10qDjYgBLmfFqpai-DBqzLKT7Ose2NpYV/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border px-6 py-3 font-semibold hover:bg-secondary/50 transition-colors"
             >
               <Download size={18} /> Resume
