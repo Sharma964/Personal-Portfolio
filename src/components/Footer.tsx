@@ -11,7 +11,7 @@ export function Footer() {
           {[
             { Icon: Github, href: "https://github.com/Sharma964" },
             { Icon: Linkedin, href: "https://www.linkedin.com/in/sonu-sharma-2119ab328" },
-            { Icon: Twitter, href: "#" },
+            { Icon: Twitter, href: "https://x.com/sonusha38241527" },
             { Icon: Instagram, href: "#" },
           ].map(({ Icon, href }, i) => (
             <a
