@@ -28,9 +28,10 @@ const projects = [
   },
   {
   img:dsavisualizerImg,
-  tittle: "DSA Visualizer",
+  title: "DSA Visualizer",
   desc: "Interactive Data Structures & Algorithms learning platform that helps students understand Arrays, Searching, Sorting, Linked Lists, Stacks, Queues, Trees, and Graphs through visualizations.",
   tags: ["TypeScript", "HTML", "CSS", "javaScript", "Vite"],
+
   live:"https://dsa-visualizer-lemon-one.vercel.app/",
   },
 ];
