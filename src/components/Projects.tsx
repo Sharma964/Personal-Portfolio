@@ -3,6 +3,7 @@ import { SectionHeader } from "./SectionHeader";
 import chatbotImg from "@/assets/project-chatbot.jpg";
 import webImg from "@/assets/project-web.jpg";
 import blockchainImg from "@/assets/project-blockchain.jpg";
+import dsavisualizerImg from "@/assets/project-dsa-visualizer.png";
 
 const projects = [
   {
@@ -24,6 +25,13 @@ const projects = [
     tags: ["Blockchain", "Solidity", "Web3", "React"],
     
     live:"https://herb-trace-ayur-block-chain.vercel.app",
+  },
+  {
+  img:dsavisualizerImg,
+  tittle: "DSA Visualizer",
+  desc: "Interactive Data Structures & Algorithms learning platform that helps students understand Arrays, Searching, Sorting, Linked Lists, Stacks, Queues, Trees, and Graphs through visualizations.",
+  tags: ["TypeScript", "HTML", "CSS", "javaScript", "Vite"],
+  live:"https://dsa-visualizer-lemon-one.vercel.app/",
   },
 ];
 
