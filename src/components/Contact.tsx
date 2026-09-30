@@ -20,7 +20,7 @@ export function Contact() {
           <div className="lg:col-span-2 space-y-4">
             {[
               { Icon: Mail, label: "Email", value: "Sonu.Sharma9485812@gmail.com" },
-              { Icon: Phone, label: "Phone", value: "+91 9942664962, +977 9814896946" },
+              { Icon: Phone, label: "Phone", value: "+91 9942664962" },
               { Icon: MapPin, label: "Location", value: "Pune, Maharashtra, India" },
               { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sonu-sharma-2119ab328" },
               { Icon: Github, label: "GitHub", value: "github.com/Sharma964" },
